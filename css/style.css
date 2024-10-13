@@ -134,6 +134,7 @@ ul li {
 
 .main__sections-3 {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -141,10 +142,25 @@ ul li {
     background-color: #E5E7EB;
 }
 
+.main__sections-3 p.author {
+    text-align: right;
+    /* align-self: flex-end; */
+}
+
+.section__3-container {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: flex-end;
+    width: 30%;
+    /* background-color: yellow; */
+}
+
 .main__sections-3 p {
-    width: 40%;
+    
     color: #1F2937;
     font-style: italic;
+    
 }
 
 .main__sections-4 {
